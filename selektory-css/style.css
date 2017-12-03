@@ -1,0 +1,31 @@
+body {
+    background-color: red;
+}
+
+p {
+    color: #fff;
+}
+
+#paragraf {
+    color: aqua;
+}
+
+a, span, div{
+    color: blue;
+}
+
+li>a{
+   background-color: yellow;
+}
+
+h2 ~ h3{
+    color: green;
+}
+
+ul >li:not(.last) {
+    color:violet;
+}
+
+ol > li:nth-child(even){
+    background-color: orange;
+}
