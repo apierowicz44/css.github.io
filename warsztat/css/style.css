@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#menu {
+    background-color: black;
+    text-align: center;
+    margin: 0;
+}
+
+#menu ul {
+    margin: 0;
+}
+
+#menu .menu-item {
+    display: inline-block;
+    padding: 25px;
+    list-style: none;
+}
+
+#menu .menu-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu .menu-item a:hover {
+    color: gray;
+}
+
+#header {
+    position: relative;
+    text-align: center;
+}
+
+#header img {
+    width: 100%;
+}
+
+#header #main-header-text {
+    top: 50%;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#about {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about #about-header {
+    padding: 20px;
+    margin: 0;
+}
+
+#about .about-content {
+    margin: 0;
+}
+
+#contact{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+
+
